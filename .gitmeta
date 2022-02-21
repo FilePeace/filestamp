@@ -1,0 +1,4 @@
+chown -h 1000:1000 './recursive_files_timestamp.sh'
+chmod 0777 './recursive_files_timestamp.sh'
+/usr/bin/touch -hcmd "2022-02-21 16:19:46.1193920000 -0300" './recursive_files_timestamp.sh'
+/usr/bin/touch -hcad "2022-02-21 20:32:02.4461859000 -0300" './recursive_files_timestamp.sh'
