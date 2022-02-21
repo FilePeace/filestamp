@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 find . -type f -name '*' -print0 | while IFS= read -r -d '' file
 do
