@@ -1,0 +1,1 @@
+- Take full path of current folder and add it to the file
