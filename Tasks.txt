@@ -1,1 +1,3 @@
 - Take full path of current folder and add it to the file
+
+.file-timestamps files will be symlinks to a git folder with sharedbytes!
