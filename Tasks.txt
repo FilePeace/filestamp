@@ -1,3 +1,3 @@
-- Take full path of current folder and add it to the file
+- Take full path of current folder and add it to the top of file "This folder: /media/daniell/Seagate Expansion Drive/Windows/Floflis/Projects"
 
 .file-timestamps files will be symlinks to a git folder with sharedbytes!
