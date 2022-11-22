@@ -13,7 +13,7 @@ do
     #last_access=$(stat -f "%Sa" "$file")
     #last_modification=$(stat -f "%Sm" "$file")
     #last_change=$(stat -f "%Sc" "$file")
-    all=$(stat "$file")
+    all=$(echo -e "" && stat "$file" && echo "IPFS hash: $(ipfs add -q --only-hash "$file")" && echo -e "------------------------------")
 
     #printf "[$file]:\n"
     #printf "\tfile name:\t\t$name\n"
