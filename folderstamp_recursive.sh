@@ -44,7 +44,7 @@ done
 
 if [ "$1" = "save" ];then
    echo "🤓📝 Working..."
-   display > .file-timestamps
+   display > .folderstamp
 else
    display
 fi
