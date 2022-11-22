@@ -14,7 +14,13 @@ do
     #last_access=$(stat -f "%Sa" "$file")
     #last_modification=$(stat -f "%Sm" "$file")
     #last_change=$(stat -f "%Sc" "$file")
+    #-to fix: all=$(echo -e "" && stat "$file" && if [ "$2" = "hash" ];then echo "IPFS hash: $(ipfs add -q --only-hash "$file")"; fi && echo -e "------------------------------")
     all=$(echo -e "" && stat "$file" && echo "IPFS hash: $(ipfs add -q --only-hash "$file")" && echo -e "------------------------------")
+#-to fix:     if [ "$2" = "--hash" ];then
+#-to fix:        all=$(echo -e "" && stat "$file" && echo "IPFS hash: $(ipfs add -q --only-hash "$file")" && echo -e "------------------------------")
+#-to fix:     else
+#-to fix:        all=$(echo -e "" && stat "$file" && echo -e "------------------------------")
+#-to fix:     fi
 
     #printf "[$file]:\n"
     #printf "\tfile name:\t\t$name\n"
@@ -39,3 +45,9 @@ if [ "$1" = "save" ];then
 else
    display
 fi
+
+#-to fix:     if [ "$2" = "--hash" ];then
+#-to fix:        if [ "$1" = "save" ];then echo "🤓📝 Working..."; display --hash > .file-timestamps; else display --hash; fi
+#-to fix:     else
+#-to fix:        if [ "$1" = "save" ];then echo "🤓📝 Working..."; display > .file-timestamps; else display; fi
+#-to fix:     fi
