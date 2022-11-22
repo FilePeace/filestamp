@@ -1,6 +1,9 @@
 #!/bin/bash -e
 
 function display {
+SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+echo "This folder: $SCRIPTPATH"
+
 find . -type f -name '*' -print0 | while IFS= read -r -d '' file
 do
     #name=$(basename "$file")

@@ -1,6 +1,6 @@
-- Take full path of current folder and add it to the top of file "This folder: /media/daniell/Seagate Expansion Drive/Windows/Floflis/Projects"
-
 - IPFS CID option through the --hash flag
+
+- after "This folder: /", add the storage device manufacturer/capacity/details
 
 ----
 
