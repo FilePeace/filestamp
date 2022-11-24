@@ -2,6 +2,8 @@
 
 - after "This folder: /", add the storage device manufacturer/capacity/details
 
+exception items, such as the very .folderstamp file and .git folder
+
 ----
 
 .file-timestamps files will be symlinks to a git folder with sharedbytes!
