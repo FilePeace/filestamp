@@ -1,8 +1,8 @@
-- IPFS CID option through the --hash flag
-
+- if .folderstamp is found, rename it to ".folderstamp1" and the next will be ".folderstamp2"
+- exception items, such as the very .folderstamp file and .git folder
 - after "This folder: /", add the storage device manufacturer/capacity/details
 
-exception items, such as the very .folderstamp file and .git folder
+- IPFS CID option through the --hash flag
 
 ----
 
