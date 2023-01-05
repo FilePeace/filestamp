@@ -1,6 +1,7 @@
 - if .folderstamp is found, rename it to ".folderstamp1" and the next will be ".folderstamp2" (use the untitled library)
 - support a simple .ls (.ls1, .ls2 - use the untitled library)
 - exception items, such as the very .folderstamp file and .git folder
+- .folderstamp.listed file; can be used to avoid listing files that were already snapshot previously
 - .folderstampignore file (pig nore? or .folderstamp-ignore file but it won't follow git's naming convention)
 - after "This folder: /", add the storage device manufacturer/capacity/details
 - install.sh
