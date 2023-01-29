@@ -4,6 +4,8 @@ function display {
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 echo "This folder: $SCRIPTPATH"
 
+if [[ "$2" == "--recursive" ]] || [[ "$2" == "-r" ]]
+   then
 find . -type f -name '*' -print0 | while IFS= read -r -d '' file
 do
     #name=$(basename "$file")
@@ -40,13 +42,24 @@ do
     printf "$all"
 done
 # from https://stackoverflow.com/a/25948226/5623661
+   else
+# NOTE : Quote it else use array to avoid problems #
+for file in ./*
+do
+  all=$(echo -e "" && stat "$file" && echo "IPFS hash: $(ipfs add -q --only-hash "$file")" && echo -e "------------------------------")
+  printf "$all"
+# from https://stackoverflow.com/a/25948226/5623661
+done
+# based from https://www.cyberciti.biz/faq/bash-loop-over-file/
+fi
 }
 
 if [ "$1" = "save" ];then
    echo "🤓📝 Working..."
-   display > .folderstamp
-else
-   display
+   display "$1" "$2" > .folderstamp
+fi
+if [ "$1" = "display" ];then
+   display "$1" "$2"
 fi
 
 #-to fix:     if [ "$2" = "--hash" ];then
