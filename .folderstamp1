@@ -1,0 +1,32 @@
+This folder: /media/daniella/B/git/FilePeace/folderstamp
+
+  File: ./folderstamp
+  Size: 2829      	Blocks: 8          IO Block: 4096   regular file
+Device: 814h/2068d	Inode: 3142402     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-01-29 20:13:25.270921900 -0300
+Modify: 2023-01-29 20:13:25.265734700 -0300
+Change: 2023-01-29 20:13:25.606573600 -0300
+ Birth: -
+IPFS hash: QmdNa9hTWxHHhTEBRJnp4HQCKvwy2Xsdx8ByCJvKcQvXAj
+------------------------------
+  File: ./install.sh
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 814h/2068d	Inode: 3141223     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-01-29 16:53:43.694442600 -0300
+Modify: 2023-01-29 16:53:43.694442600 -0300
+Change: 2023-01-29 16:54:44.210220900 -0300
+ Birth: -
+IPFS hash: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
+------------------------------
+  File: ./Tasks.txt
+  Size: 721       	Blocks: 8          IO Block: 4096   regular file
+Device: 814h/2068d	Inode: 3142427     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-01-29 20:15:06.706438100 -0300
+Modify: 2023-01-29 20:15:06.704383100 -0300
+Change: 2023-01-29 20:15:07.025035700 -0300
+ Birth: -
+IPFS hash: QmTtjQZYZSTHJEHrdV1EmM9E94eg8tqZBoJcbAxE3PQwGc
+------------------------------
