@@ -1,3 +1,5 @@
+fix "This folder: /usr/bin" issue
+
 --help flag
 
 - if .folderstamp is found, rename it to ".folderstamp1" and the next will be ".folderstamp2" (use the untitled library) (mirror this feature, in verifact-hash)
