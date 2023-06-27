@@ -1,15 +1,16 @@
-fix "This folder: /usr/bin" issue
+"v2" from ChatGPT:
+- in the recursive mode, also stamp the folder (but without hash) as non-recursive do
+- .folderstampignore file (pig nore? or .folderstamp-ignore file but it won't follow git's naming convention)
+- hardcoded exception items, such as the very .folderstamp file and .git folder
+- after "This folder: /", add the storage device manufacturer/capacity/details
+- IPFS CID option through the --hash flag
 
 --help flag
 
 - if .folderstamp is found, rename it to ".folderstamp1" and the next will be ".folderstamp2" (use the untitled library) (mirror this feature, in verifact-hash)
 - support a simple .ls (.ls1, .ls2 - use the untitled library)
-- exception items, such as the very .folderstamp file and .git folder
-- .folderstamp.listed file; can be used to avoid listing files that were already snapshot previously
-- .folderstampignore file (pig nore? or .folderstamp-ignore file but it won't follow git's naming convention)
-- after "This folder: /", add the storage device manufacturer/capacity/details
 
-- IPFS CID option through the --hash flag
+- .folderstamp.listed file; can be used to avoid listing files that were already snapshot previously
 
 ----
 
