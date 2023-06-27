@@ -1,8 +1,10 @@
 #!/bin/bash -e
 
 function display {
-SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-echo "This folder: $SCRIPTPATH"
+#SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+#echo "This folder: $SCRIPTPATH"
+rocketlaunch_dir=`pwd` #from https://unix.stackexchange.com/a/52919/470623
+echo "This folder: $rocketlaunch_dir"
 
 if [[ "$2" == "--recursive" ]] || [[ "$2" == "-r" ]]
    then
