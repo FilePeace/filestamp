@@ -2,7 +2,7 @@
 - in the recursive mode, also stamp the folder (but without hash) as non-recursive do
 - .folderstampignore file (pig nore? or .folderstamp-ignore file but it won't follow git's naming convention)
 - hardcoded exception items, such as the very .folderstamp file and .git folder
-- after "This folder: /", add the storage device manufacturer/capacity/details
+- after "This folder: /", add the storage device manufacturer/capacity/details and add the current git branch if .git present
 - IPFS CID option through the --hash flag
 
 --help flag
