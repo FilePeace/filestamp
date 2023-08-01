@@ -5,6 +5,8 @@
 - after "This folder: /", add the storage device manufacturer/capacity/details and add the current git branch if .git present
 - IPFS CID option through the --hash flag
 
+- at the end of .folderstamp file, tell the date it was done. option to add Ethereum's current latest block no.
+
 --help flag
 
 - if .folderstamp is found, rename it to ".folderstamp1" and the next will be ".folderstamp2" (use the untitled library) (mirror this feature, in verifact-hash)
