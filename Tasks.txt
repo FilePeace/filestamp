@@ -1,4 +1,5 @@
 "v2" from ChatGPT:
+- when stamping on Desktop: tell the current background, items' positions and items' icons!
 - .folderstamp: tell when it was recursive or not
 - if .folderstamp is found, rename it to ".folderstamp1" and the next will be ".folderstamp2" (use the untitled library) (mirror this feature, in verifact-hash)
 - support a simple .ls (.ls1, .ls2 - use the untitled library)
