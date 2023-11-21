@@ -1,3 +1,11 @@
+fix this issue:
+New/Download/10 
+❯ folderstamp save -r
+🤓📝 Working...
+/usr/bin/folderstamp: line 44: printf: `m': invalid format character
+New/Download/10 took 4s 
+❯ 
+
 "v2" from ChatGPT:
 - when stamping on Desktop: tell the current background, items' positions and items' icons!
 - .folderstamp: tell when it was recursive or not
