@@ -5,6 +5,10 @@ New/Download/10
 /usr/bin/folderstamp: line 44: printf: `m': invalid format character
 New/Download/10 took 4s 
 ❯ 
+-
+also:
+/usr/bin/folderstamp: line 44: printf: `
+': invalid format character
 
 "v2" from ChatGPT:
 - when stamping on Desktop: tell the current background, items' positions and items' icons!
