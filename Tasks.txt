@@ -9,6 +9,12 @@ New/Download/10 took 4s
 also:
 /usr/bin/folderstamp: line 44: printf: `
 ': invalid format character
+-
+also:
+folderstamp_recursive.sh: line 40: printf: `B': invalid format character
+folderstamp_recursive.sh: line 40: printf: `m': invalid format character
+folderstamp_recursive.sh: line 40: printf: `T': invalid format character
+folderstamp_recursive.sh: line 40: printf: `,': invalid format character
 
 "v2" from ChatGPT:
 - when stamping on Desktop: tell the current background, items' positions and items' icons!
