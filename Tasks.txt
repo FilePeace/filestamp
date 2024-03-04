@@ -1,3 +1,5 @@
+- tell if recursive or non-recursive ("Method: " line)
+
 fix this issue:
 New/Download/10 
 ❯ folderstamp save -r
