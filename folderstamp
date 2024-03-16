@@ -49,7 +49,7 @@ do
     #printf "\tlast file modification:\t$last_modification\n"
     #printf "\tlast file change:\t$last_change\n"
     #printf "\n"
-    printf "$all"
+    printf "$all" | sed 's/%/%%/g'
 done
 # from https://stackoverflow.com/a/25948226/5623661
    else
@@ -57,7 +57,7 @@ done
 for file in ./*
 do
   all=$(echo -e "" && stat "$file" && echo "IPFS hash: $(ipfs add -q --only-hash "$file")" && echo -e "------------------------------")
-  printf "$all"
+  printf "$all" | sed 's/%/%%/g'
 # from https://stackoverflow.com/a/25948226/5623661
 done
 # based from https://www.cyberciti.biz/faq/bash-loop-over-file/
