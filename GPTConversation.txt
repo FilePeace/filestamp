@@ -1,0 +1,39 @@
+tell on .folderstamp if mode used is recursive or non-recursive (add the "Method: " bellow "This folder: " line)
+
+
+
+
+
+
+
+
+To indicate if the mode used is recursive or non-recursive in the `.folderstamp` file, you can add a line below "This folder:" with the method used. You can achieve this by modifying the [display](file:///media/daniella/B/git/nerdy%20DAOs/FilePeace/folderstamp/folderstamp#61%2C4-61%2C4) function in the script as follows:
+
+```shell
+7|echo "This folder: $rocketlaunch_dir"
+8|echo "Method: $2"  # Add this line to show the method used
+```
+
+
+
+
+
+
+
+
+
+Wrong. It will tell "-r" or empty, instead of "Recursive" or "Non-recursive"; so, please, detect if "-r" or empty to tell what in a human-friendly way for reading.
+
+
+
+
+To display "Recursive" or "Non-recursive" instead of "-r" or empty in the `.folderstamp` file, modify the [display](file:///media/daniella/B/git/nerdy%20DAOs/FilePeace/folderstamp/folderstamp#3%2C10-3%2C10) function as follows:
+
+```shell
+10|if [[ "$2" == "--recursive" ]] || [[ "$2" == "-r" ]]; then
+11|   method="Recursive"
+12|else
+13|   method="Non-recursive"
+14|fi
+15|echo "Method: $method"  # Add this line to show the method used in a human-friendly way
+```

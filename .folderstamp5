@@ -1,0 +1,34 @@
+This folder: /media/daniella/B/git/nerdy DAOs/FilePeace/folderstamp
+Method: Non-recursive
+Method: 
+
+  File: ./folderstamp
+  Size: 3183      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,20	Inode: 956511      Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-03-16 19:13:53.940371400 -0300
+Modify: 2024-03-16 19:13:53.616370400 -0300
+Change: 2024-03-16 19:13:53.616370400 -0300
+ Birth: 2023-06-27 11:50:51.148420800 -0300
+IPFS hash: QmPk6v95S9XiwpkPLTzoLf2MCAwJQVYMTkc1fnvmCMRxef
+------------------------------
+  File: ./install.sh
+  Size: 220       	Blocks: 0          IO Block: 4096   regular file
+Device: 8,20	Inode: 3142527     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-03-16 19:08:31.287092700 -0300
+Modify: 2023-01-29 20:18:12.260950600 -0300
+Change: 2023-01-29 20:18:12.587337600 -0300
+ Birth: 2023-01-29 20:18:12.259382000 -0300
+IPFS hash: QmTcEN2Yey2yDxR2TScpMiRbq4Ns8Y6QY5fyUWBDpijyss
+------------------------------
+  File: ./Tasks.txt
+  Size: 1829      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,20	Inode: 3624976     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-03-16 19:08:36.491121000 -0300
+Modify: 2024-03-04 00:28:29.279420400 -0300
+Change: 2024-03-04 00:28:29.335416600 -0300
+ Birth: 2024-03-04 00:28:29.279420400 -0300
+IPFS hash: QmUbCevZyfY6zRPCpvUbzAAR91QXUzqQfM8QSkGv6ENnVB
+------------------------------
