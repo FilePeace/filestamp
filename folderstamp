@@ -5,14 +5,13 @@ function display {
 #echo "This folder: $SCRIPTPATH"
 rocketlaunch_dir=`pwd` #from https://unix.stackexchange.com/a/52919/470623
 echo "This folder: $rocketlaunch_dir"
+#-
 if [[ "$2" == "--recursive" ]] || [[ "$2" == "-r" ]]; then
    method="Recursive"
 else
    method="Non-recursive"
 fi
 echo "Method: $method"  # Add this line to show the method used
-
-echo "Method: $2"  # Add this line to show the method used
 
 if [[ "$2" == "--recursive" ]] || [[ "$2" == "-r" ]]
    then
