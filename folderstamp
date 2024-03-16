@@ -5,9 +5,18 @@ function display {
 #echo "This folder: $SCRIPTPATH"
 rocketlaunch_dir=`pwd` #from https://unix.stackexchange.com/a/52919/470623
 echo "This folder: $rocketlaunch_dir"
+#-
 # Add storage device details
 storage_details=$(lsblk -o NAME,SIZE,TYPE,VENDOR,MODEL | grep "$(df -P . | awk 'NR==2 {print $1}')" | sed 's/^/Storage Device: /')
 echo "$storage_details"
+#-
+echo "folderstamp version: r5"
+if [[ "$2" == "--recursive" ]] || [[ "$2" == "-r" ]]; then
+   method="Recursive"
+else
+   method="Non-recursive"
+fi
+echo "Method: $method"  # Add this line to show the method used
 
 # Display current git branch and first git remote name with URL if .git folder is present
 # Check if .git folder exists
@@ -18,13 +27,6 @@ if [ -d ".git" ]; then
     echo "Current Git Branch: $current_branch"
     echo "First Git Remote: $first_remote_name - URL: $first_remote_url"
 fi
-echo "folderstamp version: r4"
-if [[ "$2" == "--recursive" ]] || [[ "$2" == "-r" ]]; then
-   method="Recursive"
-else
-   method="Non-recursive"
-fi
-echo "Method: $method"  # Add this line to show the method used
 
 if [[ "$2" == "--recursive" ]] || [[ "$2" == "-r" ]]
    then
