@@ -1,32 +1,47 @@
 This folder: /media/daniella/B/git/nerdy DAOs/FilePeace/folderstamp
 
+folderstamp version: r5
+Method: Non-recursive
+Current Git Branch: main
+First Git Remote: origin - URL: https://github.com/FilePeace/folderstamp.git
+
   File: ./folderstamp
-  Size: 2944      	Blocks: 8          IO Block: 4096   regular file
-Device: 8,20	Inode: 956511      Links: 1
+  Size: 3811      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,20	Inode: 2029396     Links: 1
 Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-06-27 11:50:51.272619800 -0300
-Modify: 2023-06-27 11:50:51.195986900 -0300
-Change: 2023-06-27 11:50:51.239787200 -0300
- Birth: 2023-06-27 11:50:51.148420800 -0300
-IPFS hash: 
+Access: 2024-03-16 20:07:26.064873100 -0300
+Modify: 2024-03-16 20:07:25.616872700 -0300
+Change: 2024-03-16 20:07:25.936873000 -0300
+ Birth: 2024-03-16 20:07:25.612872700 -0300
+IPFS hash: QmdzcLeEYtjobA4ctFjLwxwmYeAY1mt5nxcQpi8fbX6qZL
+------------------------------
+  File: ./GPTConversation.txt
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 8,20	Inode: 2029395     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-03-16 20:07:37.952883500 -0300
+Modify: 2024-03-16 20:05:56.900797900 -0300
+Change: 2024-03-16 20:05:57.172798100 -0300
+ Birth: 2024-03-16 20:05:56.900797900 -0300
+IPFS hash: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
 ------------------------------
   File: ./install.sh
   Size: 220       	Blocks: 0          IO Block: 4096   regular file
 Device: 8,20	Inode: 3142527     Links: 1
 Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-04-06 23:09:47.197587800 -0300
+Access: 2024-03-16 19:08:31.287092700 -0300
 Modify: 2023-01-29 20:18:12.260950600 -0300
 Change: 2023-01-29 20:18:12.587337600 -0300
  Birth: 2023-01-29 20:18:12.259382000 -0300
-IPFS hash: 
+IPFS hash: QmTcEN2Yey2yDxR2TScpMiRbq4Ns8Y6QY5fyUWBDpijyss
 ------------------------------
   File: ./Tasks.txt
-  Size: 1473      	Blocks: 8          IO Block: 4096   regular file
-Device: 8,20	Inode: 4304065     Links: 1
+  Size: 1423      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,20	Inode: 2029362     Links: 1
 Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
-Access: 2023-11-21 03:56:59.554543400 -0300
-Modify: 2023-11-21 03:56:53.846572900 -0300
-Change: 2023-11-21 03:56:54.162571200 -0300
- Birth: 2023-11-21 03:56:53.842572900 -0300
-IPFS hash: 
+Access: 2024-03-16 20:05:14.052763700 -0300
+Modify: 2024-03-16 20:03:45.272697600 -0300
+Change: 2024-03-16 20:03:45.596697800 -0300
+ Birth: 2024-03-16 20:03:45.268697600 -0300
+IPFS hash: QmY2c2s3G8jCmp1ZMB4gR1dACLiUwwJDEKLS5TncheC5DG
 ------------------------------
