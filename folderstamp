@@ -6,6 +6,7 @@ function display {
 rocketlaunch_dir=`pwd` #from https://unix.stackexchange.com/a/52919/470623
 echo "This folder: $rocketlaunch_dir"
 #-
+echo "folderstamp version: r4"
 if [[ "$2" == "--recursive" ]] || [[ "$2" == "-r" ]]; then
    method="Recursive"
 else
